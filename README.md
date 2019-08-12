@@ -6,31 +6,11 @@
 -->
 
 
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/SPA-Forum.jpg" alt="SPA-Forum" width="80" height="80">
+  <a href="https://github.com/kareem0badawy/SPA-Forum">
+    <img src="images/SPA-Forum.jpg" alt="SPA-Forum" width="350" height="200">
   </a>
 
   <h3 align="center">Build a Vue SPA With Laravel</h3>
@@ -43,21 +23,15 @@
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
   * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
 
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]("#")
+[![Product Name Screen Shot][product-screenshot]]
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
@@ -114,7 +88,7 @@ const API_KEY = 'ENTER YOUR API';
 
 
 <!-- ROADMAP -->
-## Roadmap
+<!-- ## Roadmap -->
 
 <!-- See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues). -->
 
