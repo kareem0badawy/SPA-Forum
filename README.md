@@ -31,7 +31,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]
+[![Product Name Screen Shot][product-screenshot]]("#")
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
