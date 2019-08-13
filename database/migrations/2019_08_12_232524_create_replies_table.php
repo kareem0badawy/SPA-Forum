@@ -17,12 +17,13 @@ class CreateRepliesTable extends Migration
             $table->bigIncrements('id');
             $table->text('body');
 
-            $table->unsignedInteger('user_id'); 
-            $table->unsignedInteger('question_id');
-
+            $table->unsignedInteger('user_id');
+            $table->unsignedbigInteger('question_id')->index();
             $table->foreign('question_id')->references('id')->on('questions')->onDelete('cascade');
+            
             $table->timestamps();
         });
+
     }
 
     /**
