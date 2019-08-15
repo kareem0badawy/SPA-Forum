@@ -14,7 +14,7 @@ class CategoryController extends Controller
      */
     public function __construct()
     {
-        // $this->middleware('JWT', ['except' => ['index', 'show']]);
+        $this->middleware('JWT', ['except' => ['index', 'show']]);
     }
 
     public function index()
