@@ -1,14 +1,18 @@
   <template>
-    <v-toolbar dark prominent src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg">
+    <v-toolbar dark>
       <v-toolbar-title>SPA - Forum</v-toolbar-title>
 
       <v-spacer></v-spacer>
-      <v-toolbar-items class="hidden-sm-and-down">
-        <v-btn text>Forum</v-btn>
+      <div class="hidden-sm-and-down">
+        <router-link to="/forum">
+          <v-btn text>Forum</v-btn>
+        </router-link>
         <v-btn text>Ask Question</v-btn>
         <v-btn text>Categories</v-btn>
-        <v-btn text>Login</v-btn>
-      </v-toolbar-items>
+        <router-link to="/login">
+          <v-btn text>Login</v-btn>
+        </router-link>      
+      </div>
       <v-btn icon>
           <v-icon>mdi-export</v-icon>
       </v-btn>

@@ -1,9 +1,9 @@
-equire('./bootstrap');
+require('./bootstrap');
 window.Vue = require('vue');
 import Vue from 'vue'
 import Vuetify from 'vuetify'
-
 window.Vue = Vue;
+
 Vue.use(Vuetify)
 
 
@@ -12,6 +12,7 @@ Vue.use(Vuetify)
 
 Vue.component('app-home', require('./components/AppHome.vue').default);
 import router from './Router/router.js'
+
 
 const app = new Vue({
     el: '#app',
