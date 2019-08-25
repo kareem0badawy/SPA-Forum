@@ -6,6 +6,15 @@ window.Vue = Vue;
 
 Vue.use(Vuetify)
 
+import VueSimplemde from 'vue-simplemde'
+Vue.component('vue-simplemde', VueSimplemde)
+import md from 'marked'
+Vue.component('marked', md)
+
+import User from './Helpers/User.js'
+window.User = User;
+window.EventBus = new Vue();
+
 
 // const files = require.context('./', true, /\.vue$/i);
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
